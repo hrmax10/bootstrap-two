@@ -1,126 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic e-commerce Website</title>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css'
-        integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=='
-        crossorigin='anonymous' />
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-
-
-    <nav class="navbar navbar-expand-md ">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Logo"></a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <div class="test">
-                    <form class="">
-                        <input class="form-control" type="text" placeholder="Search">
-                        <button class="btn type=" submit"><img src="./images/search.svg" alt=""></button>
-                    </form>
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
+  <body>
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt="Logo"
+        /></a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <div class="test">
+            <form class="">
+              <input class="form-control" type="text" placeholder="Search" />
+              <button class="btn" type="submit">
+                <img src="./images/search.svg" alt="" />
+              </button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
 
     <section class="sliderSection">
-     <div class="container">
+      <div class="container">
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-            </ol>
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="First slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              aria-label="Second slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              aria-label="Third slide"
+            ></li>
+          </ol>
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="firstSlide">
-                    <div class="firstSlideTexts">
-                        <h2>Mi LED TV 4A PRO 32</h2>
-                        <p class="sOneP">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="firstSlide">
+                <div class="firstSlideTexts">
+                  <h2>Mi LED TV 4A PRO 32</h2>
+                  <p class="sOneP">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature.
+                  </p>
 
-                        <p class="sOnePrice">$1289</p>
-                        <button class="btn sliderOneBtn">BUY NOW <img src="./images/arrow-right.svg" alt=""></button>
-                    </div>
-                    <div class="firstSlideImg">
-                        <img src="./images/banner-images/tv.png" alt="">
-                    </div>
-                  </div>
+                  <p class="sOnePrice">$1289</p>
+                  <button class="btn sliderOneBtn">
+                    BUY NOW <img src="./images/arrow-right.svg" alt="" />
+                  </button>
                 </div>
-             
-                <div class="carousel-item">
-                  <div class="firstSlide">
-                    <div class="firstSlideTexts">
-                        <h2>Ear Bud Warmer</h2>
-                        <p class="sOneP">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
-
-                        <p class="sOnePrice">$420</p>
-                        <button class="btn sliderOneBtn">BUY NOW <img src="./images/arrow-right.svg" alt=""></button>
-                    </div>
-                    <div class="firstSlideImg">
-                        <img src="./images/banner-images/headphone.png" alt="">
-                    </div>
-                  </div>
-                  
+                <div class="firstSlideImg">
+                  <img src="./images/banner-images/tv.png" alt="" />
                 </div>
+              </div>
+            </div>
 
-                <div class="carousel-item">
-                  <div class="firstSlide">
-                    <div class="firstSlideTexts">
-                        <h2>Y-box to waste time</h2>
-                        <p class="sOneP">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+            <div class="carousel-item">
+              <div class="firstSlide">
+                <div class="firstSlideTexts">
+                  <h2>Ear Bud Warmer</h2>
+                  <p class="sOneP">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature.
+                  </p>
 
-                        <p class="sOnePrice">$600</p>
-                        <button class="btn sliderOneBtn">BUY NOW <img src="./images/arrow-right.svg" alt=""></button>
-                    </div>
-                    <div class="firstSlideImg">
-                        <img src="./images/banner-images/xbox.png" alt="">
-                    </div>
-                  </div>
-
+                  <p class="sOnePrice">$420</p>
+                  <button class="btn sliderOneBtn">
+                    BUY NOW <img src="./images/arrow-right.svg" alt="" />
+                  </button>
                 </div>
-             
+                <div class="firstSlideImg">
+                  <img src="./images/banner-images/headphone.png" alt="" />
+                </div>
+              </div>
+            </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+            <div class="carousel-item">
+              <div class="firstSlide">
+                <div class="firstSlideTexts">
+                  <h2>Y-box to waste time</h2>
+                  <p class="sOneP">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature.
+                  </p>
+
+                  <p class="sOnePrice">$600</p>
+                  <button class="btn sliderOneBtn">
+                    BUY NOW <img src="./images/arrow-right.svg" alt="" />
+                  </button>
+                </div>
+                <div class="firstSlideImg">
+                  <img src="./images/banner-images/xbox.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselId"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselId"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
             </button>
+          </div>
         </div>
-     </div>
+      </div>
     </section>
 
+    <section class="catSection">
+      <div class="container">
+        <header class="catHeader">
+          <h2>Categories</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-3 catWatch">
+            <h1>Watch</h1>
+            <img src="./images/categories/watch.png" alt="" />
+          </div>
 
+          <div class="col-lg-3 catBag">
+            <h1>Bag</h1>
+            <img src="./images/categories/bag.png" alt="" />
+          </div>
 
+          <div class="col-lg-3 catShoes">
+            <h1>Shoes</h1>
+            <img src="./images/categories/shoes.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-
-
-
-
-
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js'
-        integrity='sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=='
-        crossorigin='anonymous'></script>
-</body>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"
+      integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
