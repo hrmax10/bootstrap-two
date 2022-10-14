@@ -118,90 +118,94 @@ form .btn {
   width: 72%;
 }
 
-.catSection{
+.catSection {
   margin-top: 60px;
   margin-bottom: 40px;
 }
-.catSection h2{
-font-family: "Open Sans", sans-serif !important;
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-color: #1F1F1F;
-margin-bottom: 45px ;
+.catSection h2 {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1f1f1f;
+  margin-bottom: 45px;
 }
 
-.catSection .row{
-    margin: 0 auto;
-    align-items: center;
-justify-content: space-between;
+.catSection .row {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
-.catSection .col-lg-3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 135px;
-    font-family: "Open Sans", sans-serif !important;
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 67px;
-padding: 7% 16%;
-color: #FFFFFF;
+.catSection .col-lg-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 67px;
+  padding: 7% 16%;
+  color: #ffffff;
 }
-.catWatch{
-    background: linear-gradient(152.07deg, #FF9C35 1.48%, #FFD019 97.18%);
-    border-radius: 18px;
-}
-
-.catBag{
-    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
-    border-radius: 18px;
+.catWatch {
+  background: linear-gradient(152.07deg, #ff9c35 1.48%, #ffd019 97.18%);
+  border-radius: 18px;
 }
 
-.catShoes{
-    background: linear-gradient(170.41deg, #4289FF -10.88%, #3F07F8 92.77%);
-    border-radius: 18px;
+.catBag {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
+  border-radius: 18px;
 }
-.catSection img{
+
+.catShoes {
+  background: linear-gradient(170.41deg, #4289ff -10.88%, #3f07f8 92.77%);
+  border-radius: 18px;
+}
+.catSection img {
   width: 111px !important;
   margin-left: 24px;
 }
-.shoeSection, .bagSection{
+.shoeSection,
+.bagSection {
   padding: 45px 0px;
-background: #F8F8F8;
+  background: #f8f8f8;
 }
-.shoeSectionHeader , .bagSectionHeader{
- 
+.shoeSectionHeader,
+.bagSectionHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.shoeSectionHeader h2 , .bagSectionHeader h2{
-font-family: "Open Sans", sans-serif !important;
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-color: #1F1F1F;
-}
-.shoeSectionHeader p, .bagSectionHeader p{
+.shoeSectionHeader h2,
+.bagSectionHeader h2 {
   font-family: "Open Sans", sans-serif !important;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 29px;
-color: #FF9D00;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1f1f1f;
 }
-.ShoeCards , .bagCards{
+.shoeSectionHeader p,
+.bagSectionHeader p {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ff9d00;
+}
+.ShoeCards,
+.bagCards {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 25px;
 }
 
-.card{
+.card {
   width: 359px;
   height: 574px;
   border: none;
@@ -209,17 +213,17 @@ color: #FF9D00;
   border-radius: 21px;
   padding: 23px 0px 0px 0px;
 }
-.card-body h5{
-font-family: "Open Sans", sans-serif !important;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 32px;
-color: #1F1F1F;
-margin-bottom: 20px;
+.card-body h5 {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1f1f1f;
+  margin-bottom: 20px;
 }
 
-.card-body p{
+.card-body p {
   font-family: "Open Sans", sans-serif !important;
   font-style: normal;
   font-weight: 300;
@@ -228,49 +232,73 @@ margin-bottom: 20px;
   color: #707070;
   margin-bottom: 70px;
 }
-.card-body .btn{
-background: #000000;
-font-family: "Open Sans", sans-serif !important;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
-color: #FFFFFF;
+.card-body .btn {
+  background: #000000;
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
 }
-.fixCardIssue{
+.fixCardIssue {
   width: 230px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+  padding: 4% !important;
+}
+.footerHolder {
+  height: 390px;
+  background: #feeae9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 24px;
+}
+.footerHolder h3 {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1f1f1f;
+}
+.footerHolder p {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #707070;
+}
+.input-group {
+  width: 60%;
+}
+.input-group .form-control::placeholder {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  color: #cccccc;
+}
+.input-group .btn {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
 
 @media screen and (max-width: 1199px) {
   .nav-link {
     margin-right: 12px;
   }
-  .card{
+  .card {
     width: 298px;
     height: 537px;
   }
@@ -286,26 +314,27 @@ color: #FFFFFF;
   form {
     width: 35%;
   }
-  .firstSlideTexts h2{
+  .firstSlideTexts h2 {
     font-size: 30px;
   }
-  .sOneP{
+  .sOneP {
     font-size: 14px !important;
   }
-  .sOnePrice{
+  .sOnePrice {
     font-size: 26px !important;
   }
-  .sliderOneBtn{
+  .sliderOneBtn {
     font-size: 13px;
     line-height: 20px;
   }
-  .catSection .col-lg-3{
+  .catSection .col-lg-3 {
     margin-bottom: 24px !important;
   }
-  .ShoeCards , .bagCards{
+  .ShoeCards,
+  .bagCards {
     flex-direction: column;
   }
-  .card{
+  .card {
     width: 50%;
     margin-bottom: 20px;
   }
@@ -331,21 +360,21 @@ color: #FFFFFF;
   }
   .firstSlideImg img {
     width: 91% !important;
-}
-.firstSlideTexts h2{
+  }
+  .firstSlideTexts h2 {
     font-size: 18px;
   }
-  .sOneP{
+  .sOneP {
     font-size: 13px !important;
   }
-  .sOnePrice{
+  .sOnePrice {
     font-size: 22px !important;
   }
-  .sliderOneBtn{
+  .sliderOneBtn {
     font-size: 13px;
     line-height: 19px;
   }
-  .card-body p{
-        margin-bottom: 27px;
+  .card-body p {
+    margin-bottom: 27px;
   }
 }
